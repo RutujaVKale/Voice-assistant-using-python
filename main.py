@@ -60,9 +60,6 @@ def run_alex():
         talk('Opening notepad')
         os.system("Notepad")
     elif 'What can you do' in command:
-        # abilities = 'Hello I am Alex. I can provide you information about anything you ask me. '
-        #             'I can play song on youtube for you.I can tell you about myself, if you are interested in knowing.
-        #             'I can open apps for you from your system. Thats it. Thats all I do. I am a lazy guy.'
         talk('Hello I am Alex. I can provide you information about anything you ask me.I can play song on youtube for you.I can tell you about myself, if you are interested in knowing.I can open apps for you from your system. Thats it. Thats all I do. I am a lazy guy.')
 
 
